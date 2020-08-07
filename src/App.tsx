@@ -5,13 +5,15 @@ import {persister, store} from './store';
 import AppNavigator from './navigation/navigator';
 import navigationService from './navigation/navigationService';
 
-export default class App extends Component {
+import codePush from 'react-native-code-push';
+
+class App extends Component {
   render() {
     return (
       <Provider store={store}>
         <PersistGate persistor={persister}>
           <AppNavigator
-            ref={navigationRef => {
+            ref={(navigationRef) => {
               navigationService.setTopLevelNavigator(navigationRef);
             }}
           />
@@ -20,3 +22,7 @@ export default class App extends Component {
     );
   }
 }
+
+let codePushOptions = {checkFrequency: codePush.CheckFrequency.ON_APP_RESUME};
+
+export default codePush(codePushOptions)(App);

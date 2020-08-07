@@ -17,6 +17,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNTSBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNTSBaseTests.m */; };
 		2E28A5080F2B088795E63D33 /* libPods-RNTSBase-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B92EBEAB9C95F70716CA02 /* libPods-RNTSBase-tvOS.a */; };
+		97EF69CB24DD7A4400E2E756 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97EF69CA24DD7A4400E2E756 /* AppCenter-Config.plist */; };
 		C71B72ABA372A8C4703C34D1 /* libPods-RNTSBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5836B3ED4341EA966A43AEA /* libPods-RNTSBase.a */; };
 		DAA1B545465CBC7514D67FCC /* libPods-RNTSBase-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3D143D7116B1B839880D30 /* libPods-RNTSBase-tvOSTests.a */; };
 		DCE329718F64C0AE844EA831 /* libPods-RNTSBase-RNTSBaseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA413ACE95E6803DB1A60A8 /* libPods-RNTSBase-RNTSBaseTests.a */; };
@@ -61,6 +62,7 @@
 		558196486C67E871C91DA385 /* Pods-RNTSBase-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBase-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNTSBase-tvOSTests/Pods-RNTSBase-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D1CFF62F4A610E80CC98638 /* Pods-RNTSBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBase.debug.xcconfig"; path = "Target Support Files/Pods-RNTSBase/Pods-RNTSBase.debug.xcconfig"; sourceTree = "<group>"; };
 		87AAD06D90B1C0650071FB23 /* Pods-RNTSBase-RNTSBaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBase-RNTSBaseTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTSBase-RNTSBaseTests/Pods-RNTSBase-RNTSBaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97EF69CA24DD7A4400E2E756 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		B747A9D94BD684716AAB4E1E /* Pods-RNTSBase-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBase-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNTSBase-tvOSTests/Pods-RNTSBase-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B77421FC2060A5407125977F /* Pods-RNTSBase-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNTSBase-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNTSBase-tvOS/Pods-RNTSBase-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C5836B3ED4341EA966A43AEA /* libPods-RNTSBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNTSBase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				97EF69CA24DD7A4400E2E756 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* RNTSBase */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNTSBaseTests */,
@@ -194,7 +197,6 @@
 				B747A9D94BD684716AAB4E1E /* Pods-RNTSBase-tvOSTests.debug.xcconfig */,
 				558196486C67E871C91DA385 /* Pods-RNTSBase-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,6 +342,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				97EF69CB24DD7A4400E2E756 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
